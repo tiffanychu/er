@@ -11,8 +11,7 @@
  h1{
   background-color: #639;
   border-radius: 25px;
-  height: 100px;
-  width: 1000px;
+   width: 95%;
   color: white;
   font-family: 'Cabin Sketch', cursive;
 }
@@ -44,34 +43,3 @@ h3 {
   width: 1300px;
 }
 
-#videos {
-  background-color: #6F9; 
-  border-radius: 25px;
-  height: 300px;
-  width: 1300px;
-} 
-
-#links {
-   background-color: #6F9; 
-  border-radius: 25px;
-  height: 200px;
-  width: 200px;
-  float: left;
-}
-
-#textbooks {
-  background-color: #6F9; 
-  border-radius: 25px;
-  height: 200px;
-  width: 200px;
-  float: left;
-  position:relative;
-  left: 500px;
-}
-
-#resources {
-  background-color: #6F9; 
-  border-radius: 25px;
-  height: 200px;
-  width: 200px;
-}

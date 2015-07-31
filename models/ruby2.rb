@@ -39,7 +39,7 @@ def calendar(a = "", b = "", c = "", d = "", e = "", f = "", g = "", h = "", i =
       @time[('t' + i.to_s).to_sym] = "sleep"
     end
   end
-  if wake_up != "t7" && wake_up != ""
+  if wake_up != ""
     @time[wake_up.to_sym] = "wake up"
    end
   if wake_up.to_s[1, wake_up.length].to_i < 7

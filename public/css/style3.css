@@ -1,0 +1,45 @@
+body {
+  font-family: 'Cabin Sketch', cursive;
+  text-align: center;
+}
+
+table {
+  font-size: 40px;
+  background-color: #CC99FF;
+  margin: auto;
+}
+
+h1{
+  font-size: 60px;
+  background-color: #639;
+  border-radius: 25px;
+  color: white;
+}
+
+#grades{
+  background-color: #B2FFB2;
+  border-radius: 25px;
+}
+
+#gpa{
+  font-size: 50px;
+  color: #19A319;
+}
+
+.button{
+  margin: auto;
+  display: block;
+  height: 40px;
+  width: 100px;
+  border-radius: 25px;
+  background: #D1C2E0;
+  color: black;
+}
+
+#buttontext{
+  font-family: 'Raleway Dots', cursive;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  margin-top: -15px;
+}
