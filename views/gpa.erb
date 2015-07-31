@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>GPA Calculator</title>
+ </head>
+ <body>
+   <h1>GPA Calculator</h1>
+   <h2>A = 4.00&nbsp&nbsp  A- = 3.67&nbsp&nbsp  B+ = 3.33&nbsp&nbsp  B = 3.00</h2>
+   <h2>B- = 2.67&nbsp&nbsp  C+ = 2.33&nbsp&nbsp  C = 2.00&nbsp&nbsp  C- = 1.67</h2>
+   <h2>D+ = 1.33&nbsp&nbsp  D = 1.00&nbsp&nbsp  D- = 0.67&nbsp&nbsp  F = 0.000</h2>
+  <table border = "1">
+    <form method = 'POST' action= '/results'>
+    <tr>
+      <th>Course</th>
+      <th>Credit Hours</th>
+      <th>Grade</th>
+    </tr>
+    <tr>
+      <td>English</td><td><input type='text' name='course1'></td><td><input type='text' name='grade1'></td>
+    </tr>
+    <tr>
+      <td>Math</td><td><input type='text' name='course2'></td><td><input type='text' name='grade2'></td>
+    </tr>
+    <tr>
+      <td>History</td><td><input type='text' name='course3'></td><td><input type='text' name='grade3'></td>
+    </tr>
+    <tr>
+      <td>Science</td><td><input type='text' name='course4'></td><td><input type='text' name='grade4'></td>
+    </tr>
+    <tr>
+      <td>Language</td><td><input type='text' name='course5'></td><td><input type='text' name='grade5'></td>
+    </tr>
+  </table>
+  <input type="submit">
+ </body>
+</html>
