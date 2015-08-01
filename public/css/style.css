@@ -111,10 +111,23 @@ position:relative;
   top: 30px;
 }
 
+#button3 {
+  z-index: 1;
+   position:relative;
+  bottom: 130px;
+  margin:auto;
+    display: block;
+    height: 40px;
+    width: 100px;
+  border-radius: 25px;
+    background: #D1C2E0;
+  color: #D1C2E0;
+}
+
 #button1 {
   z-index: 1;
    position:relative;
-  bottom: 100px;
+  bottom: 80px;
   margin:auto;
     display: block;
     height: 40px;
@@ -127,7 +140,7 @@ position:relative;
 #button2 {
   z-index: 2;
    position:relative;
-  bottom: 100px;
+  bottom: 110px;
    margin:auto;
     display: block;
     height: 40px;
