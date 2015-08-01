@@ -58,7 +58,7 @@ table {
   position: relative;
   top: 20px
   margin:auto;
-  height: 220px;
+  height: 250px;
   background: -webkit-linear-gradient(#9470B8, #639); 
   background: -o-linear-gradient(#9470B8, #639); 
   background: -moz-linear-gradient(#9470B8, #639); 
@@ -114,7 +114,7 @@ position:relative;
 #button3 {
   z-index: 1;
    position:relative;
-  bottom: 130px;
+  bottom: 100px;
   margin:auto;
     display: block;
     height: 40px;
@@ -127,7 +127,7 @@ position:relative;
 #button1 {
   z-index: 1;
    position:relative;
-  bottom: 80px;
+  bottom: 112px;
   margin:auto;
     display: block;
     height: 40px;
@@ -140,7 +140,7 @@ position:relative;
 #button2 {
   z-index: 2;
    position:relative;
-  bottom: 110px;
+  bottom: 130px;
    margin:auto;
     display: block;
     height: 40px;
